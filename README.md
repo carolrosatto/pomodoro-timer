@@ -12,11 +12,8 @@ Projeto realizado com o curso [Aprenda Flutter e Desenvolva Apps Para Android e 
 - Pode iniciar, pausar e reiniciar o cronômetro;
 - As cores do layout se adequam de acordo com o tipo de intervalor que está sendo cronometrado;
 
-<div style="width: 40%">
-
 ![Pomodoro Timer](/lib/assets/demo.gif)
 
-</div>
 
 ## A fazer:
 - Permitir trocar entre trabalho/descanso sem depender do tempo;
