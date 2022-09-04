@@ -18,8 +18,9 @@ class StopwatchButton extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 4.0),
       child: ElevatedButton(
           style: ElevatedButton.styleFrom(
+            shape: StadiumBorder(),
             primary: Colors.grey[900],
-            padding: EdgeInsets.symmetric(vertical: 20, horizontal: 10),
+            padding: EdgeInsets.symmetric(vertical: 15, horizontal: 20),
             textStyle: TextStyle(fontSize: 25),
           ),
           onPressed: onClick,

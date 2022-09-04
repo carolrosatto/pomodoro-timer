@@ -24,7 +24,7 @@ abstract class _PomodoroStore with Store {
   bool hasInitiate = false;
 
   @observable
-  IntervalType intervalType = IntervalType.rest;
+  IntervalType intervalType = IntervalType.work;
 
   Timer? stopwatch;
 

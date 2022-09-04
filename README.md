@@ -1,20 +1,31 @@
-# pomodoro
+# Pomodoro Timer
 
-A new Flutter project.
+Projeto realizado com o curso [Aprenda Flutter e Desenvolva Apps Para Android e IOS 2022
+](https://www.udemy.com/course/curso-flutter/learn/lecture/28256708#overview)
 
-## Getting Started
+- O foco do exercício foi aprender sobre gerenciamento de estados utilizando [Mobx](https://pub.dev/packages/mobx).
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Demonstração do projeto:
+### Versão 1.0:
+- O usuário pode setar minutos de descanso/trabalho;
+- Pode iniciar, pausar e reiniciar o cronômetro;
+- As cores do layout se adequam de acordo com o tipo de intervalor que está sendo cronometrado;
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<div style="width: 40%">
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# pomodoro-timer
-# pomodoro-timer
-# pomodoro-timer
-# pomodoro-timer
+![Pomodoro Timer](/lib/assets/demo.gif)
+
+</div>
+
+## A fazer:
+- Permitir trocar entre trabalho/descanso sem depender do tempo;
+- Layout mais atrativo;
+- Implementar input para segundos;
+
+## Dependencias utilizadas: 
+- [mobx](https://pub.dev/packages/mobx)
+- [flutter_mobx](https://pub.dev/packages/flutter_mobx)
+- [provider](https://pub.dev/packages/provider)  
+- [build_runner](https://pub.dev/packages/build_runner)
+- [mobx_codegen](https://pub.dev/packages/mobx_codegen)
